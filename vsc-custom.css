@@ -1,0 +1,14 @@
+/**
+ * https://github.com/Microsoft/vscode/blob/master/src/vs/editor/common/modes/supports/tokenization.ts
+ *
+ * at the end of the line i've found .mtki class name
+ *
+ * and font-style set italic as well
+ *
+ * so I just change it's font size
+ *
+ * thats it!
+ */
+.mtki {
+  font-size: 1.2em;
+}

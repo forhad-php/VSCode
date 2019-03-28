@@ -1,0 +1,146 @@
+/****
+    Visual Studio Code EXTENSIONS :
+    1. WordPress VS Code Extension Pack
+    2. Code Runner
+    3. GitLens — Git supercharged
+    4. ESLint
+    5. "Highlight Matching Tag" by "vincaslt"
+    6. JetBrains IDE Keymap
+    7. Live Server
+    8. Path Intellisense
+    9. "PHP DocBlocker" by "Neil Brayfield"
+    10. "phpcbf" by "Per Soderlind"
+    11. Bracket Pair Colorizer
+    12. "Custom CSS and JS Loader" by "be5invis"
+
+    Visual Studio Code Theme :
+    1. Material Theme - Palenight High Contrast
+
+    VSCode + JetBrains IDE Keymap Shortcuts :
+    0. F1                       => Show Command Palette
+    1. Ctrl + W                => Extend selection
+    2. Ctrl + Shift + W       => Shrink selection
+    3. Ctrl + Shift + \       => Jump/Jump Back to Matching Brace
+    4. Ctrl + G                => Go to Line
+    5. Ctrl +] / [             => Indent/outdent line
+    6. Ctrl+Shift+\           => Jump to matching bracket
+    7. Ctrl + D                 => Duplicate current line
+    8. Alt+ ← / →            => Jump back / forward
+    9. Alt+Click              => Insert cursor
+    10.Ctrl+Alt+ ↑ / ↓       => Insert cursor above / below
+    11. Esc                   => Escape the multi-line selection
+    12.Ctrl+U                => Undo last cursor operation
+    13.Ctrl+Shift↑ / ↓     => Move up/down with current line
+    14.Ctrl+Enter          => Insert line below
+    15.Ctrl+Shift+Enter  => Insert line above
+    16.Ctrl+Home / End   => Scroll to top/bottom
+    17.Ctrl + J           => Show/Hide Terminal
+    */
+{
+    "phpcs.enable": true,
+    "phpcs.standard": "WordPress",
+    // The path to a PHP 7+ executable.
+    "php.executablePath": "C:\/xampp\/php\/php.exe",
+    "php.validate.executablePath": "C:\/xampp\/php\/php.exe",
+    "phpcs_executable_path": "C:\/composer\/vendor\/bin\/phpcs.bat",
+    "jetbrainsKeymap.promptV3Features": true,
+    "editor.formatOnPaste": true,
+    // --- Theme Setup Start --- //
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "editor.fontFamily": "Operator Mono Lig",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 17,
+    "editor.lineHeight": 24.65,
+    "editor.letterSpacing": 0.5,
+    "editor.fontWeight": "100",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 3,
+    "editor.cursorBlinking": "solid",
+    "editor.renderWhitespace": "all",
+    "editor.snippetSuggestions": "top",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.glyphMargin": true,
+    "explorer.confirmDragAndDrop": false,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    // following will be in italic
+                    "comment",
+                    "entity.name.type.class", // class names
+                    "keyword", // import, export, return…
+                    "constant", // String, Number, Boolean…, this, super
+                    "storage.modifier", // static keyword
+                    "storage.type.class.js", // class keyword
+                ],
+                "settings": {
+                    "fontStyle": "italic", // italic, bold, underline
+                }
+            },
+            {
+                "scope": [
+                    // following will be excluded from italics (VSCode has some defaults for italics)
+                    "invalid",
+                    "keyword.operator",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json"
+                ],
+                "settings": {
+                    "fontStyle": "" // The empty string unsets inherited settings.
+                }
+            }
+        ]
+    },
+    // Formatting Optional.
+    "editor.formatOnSave": false,
+    "eslint.run": "onType",
+    "eslint.autoFixOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "breadcrumbs.enabled": true,
+    // --- Theme Setup End --- //
+    // Extension "phpcbf" by "Per Soderlind" settings //
+    "phpcbf.enable": true,
+    "phpcbf.onsave": false,
+    "phpcbf.debug": true,
+    "phpcbf.standard": "WordPress",
+    "phpcbf.executablePath": "C:\/Users\/Forhad\/AppData\/Roaming\/Composer\/vendor\/bin\/phpcbf.bat",
+    // End "phpcbf" Settings //
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.ignoreMissingGitWarning": true,
+    // Extension : Bracket Pair Colorizer
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        ["</", ">"],
+        ["<", "/>"],
+        "<>",
+        [
+            "", // Gold
+            "", // Orchid
+            "", // LightSkyBlue
+        ],
+        "", // Red
+    ],
+    "editor.matchBrackets": false, // batter false when "Bracket Pair Colorizer" extentsion enabled.
+    // Extension : "Custom CSS and JS Loader" by "be5invis"
+    "vscode_custom_css.imports": [
+        "file:///C:/vscss/styles.css"
+    ],
+    "vscode_custom_css.policy": true,
+    // Extension : "GitLens" Settings required
+    "git.enabled": true,
+    "git.path": "C:\\cmder\\vendor\\git-for-windows\\cmd\\git.exe",
+    // terminal
+    "terminal.integrated.fontFamily": "Monofur for Powerline", // Meslo LG S for Powerline
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.shell.windows": "C:\\Windows\\SysWOW64\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "/k C:\\cmder\\vendor\\init.bat"
+    ],
+}
