@@ -66,14 +66,34 @@
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
+                // Scope Naming Documentation : https://www.sublimetext.com/docs/3/scope_naming.html
+                // Or find here by the language : https://github.com/Microsoft/vscode/tree/master/extensions
+                // e.g: css/syntaxes/css.tmLanguage.json
                 "scope": [
                     // following will be in italic
-                    "comment",
+                    "punctuation.definition.comment", // Symbols that delineate a comment, e.g. // or /*
                     "entity.name.type.class", // class names
                     "keyword", // import, export, return…
-                    "constant", // String, Number, Boolean…, this, super
+                    "constant.language", // booleans and null values
+                    "constant.numeric", // numbers
                     "storage.modifier", // static keyword
+                    // JS Scopes
                     "storage.type.class.js", // class keyword
+                    // CSS Scopes
+                    "support.constant.font-name.css",
+                    "support.constant.color.w3c-standard-color-name.css",
+                    "support.function.url.css",
+                    "support.function.transform.css",
+                    "support.function.calc.css",
+                    "meta.function.color.css",
+                    "meta.function.gradient.css",
+                    "support.function.misc.css",
+                    "support.function.timing-function.css",
+                    "punctuation.section.function.begin.bracket.round.css",
+                    "punctuation.section.function.end.bracket.round.css",
+                    "meta.selector.css",
+                    "keyword.operator.combinator.css",
+                    "constant.other.color.rgb-value.hex.css",
                 ],
                 "settings": {
                     "fontStyle": "italic", // italic, bold, underline
@@ -84,10 +104,13 @@
                     // following will be excluded from italics (VSCode has some defaults for italics)
                     "invalid",
                     "keyword.operator",
-                    "constant.numeric.css",
+                    // "constant.numeric.css",
                     "keyword.other.unit.px.css",
+                    // "support.constant.property-value.css",
                     "constant.numeric.decimal.js",
-                    "constant.numeric.json"
+                    "constant.numeric.json",
+                    "comment",
+                    "entity.other.attribute-name.class.css",
                 ],
                 "settings": {
                     "fontStyle": "" // The empty string unsets inherited settings.
