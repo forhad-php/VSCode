@@ -107,13 +107,21 @@
                     // "constant.numeric.css",
                     "keyword.other.unit.px.css",
                     // "support.constant.property-value.css",
-                    "constant.numeric.decimal.js",
-                    "constant.numeric.json",
+                    // "constant.numeric.decimal.js",
+                    // "constant.numeric.json",
                     "comment",
                     "entity.other.attribute-name.class.css",
                 ],
                 "settings": {
                     "fontStyle": "" // The empty string unsets inherited settings.
+                }
+            },
+            {
+                "scope": [
+                    "variable.other.php",
+                ],
+                "settings": {
+                    "fontStyle": "bold",
                 }
             }
         ]
