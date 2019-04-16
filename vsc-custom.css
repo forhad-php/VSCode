@@ -1,14 +1,129 @@
 /**
+ * Italic Font Size !!
+ *
  * https://github.com/Microsoft/vscode/blob/master/src/vs/editor/common/modes/supports/tokenization.ts
  *
  * at the end of the line i've found .mtki class name
- *
  * and font-style set italic as well
- *
  * so I just change it's font size
- *
  * thats it!
  */
 .mtki {
   font-size: 1.1em;
 }
+
+/**
+ * VSCode Sidebar FileTree Styles !!
+ *
+ * Source 1     : https://gist.github.com/jakewtaylor/e92acd697409e53a73ebf8e0145d4c28
+ * Source 2     : https://gist.github.com/samdenty/b96f4df576d05cb123248f8ebfa899b6
+ * Source 3     : https://gist.github.com/Lightfire228/39dc2cf403237a190e79a000912691b2#gistcomment-2841903
+ * File URI     : file:///C:/Path/to/file/style.css
+ * Github Issue : https://github.com/Microsoft/vscode/issues/17777
+ */
+
+:root {
+  /** Indentation level **/
+  --indent: 20px;
+  /** The x offset for the vertical indentation guides **/
+  --v-guides-offset: 13px;
+  /** The x offset for the horizontal indentation guides **/
+  --h-guides-offset: 1px;
+  /** Opacity of the lines whilst not hovered **/
+  --tree-opacity: 0.1;
+  /** Opacity of the lines on hover **/
+  --tree-opacity-hover: 0.3;
+  /** Color of the lines **/
+  --tree-color: rgb(255, 255, 255);
+  /** Transition Duration */
+  --transition-duration: 100ms;
+}
+
+.explorer-folders-view .monaco-tl-twistie {
+  margin-left: 0px !important;
+}
+
+.explorer-folders-view .monaco-list-row {
+  overflow: visible !important;
+}
+
+.explorer-folders-view .monaco-list-row:before {
+  content: '';
+  background: var(--tree-color);
+  opacity: var(--tree-opacity);
+  position: absolute;
+  width: 0px;
+  top: -10px;
+  height: 100%;
+  transition: opacity var(--transition-duration) linear;
+  border-left: 1px solid var(--tree-color);
+  z-index: 10;
+}
+
+.explorer-folders-view .monaco-list-row:after {
+  content: '';
+  background: var(--tree-color);
+  opacity: var(--tree-opacity);
+  position: absolute;
+  width: calc(var(--indent) - (10px - var(--h-guides-offset)));
+  height: 0px;
+  top: 49%;
+  margin-left: var(--h-guides-offset);
+  transition: opacity var(--transition-duration) linear;
+  border-top: 1px solid var(--tree-color);
+  z-index: 10;
+}
+
+.explorer-folders-view:hover .monaco-list-row:before,
+.explorer-folders-view:hover .monaco-list-row:after {
+  opacity: var(--tree-opacity-hover);
+}
+
+.explorer-folders-view .monaco-list-row:not([aria-level='1']):before {
+  box-shadow:
+    calc(var(--indent) * -1 ) 0 0 0 var(--tree-color),
+    calc(var(--indent) * -2 ) 0 0 0 var(--tree-color),
+    calc(var(--indent) * -3 ) 0 0 0 var(--tree-color),
+    calc(var(--indent) * -4 ) 0 0 0 var(--tree-color),
+    calc(var(--indent) * -5 ) 0 0 0 var(--tree-color),
+    calc(var(--indent) * -6 ) 0 0 0 var(--tree-color),
+    calc(var(--indent) * -7 ) 0 0 0 var(--tree-color),
+    calc(var(--indent) * -8 ) 0 0 0 var(--tree-color),
+    calc(var(--indent) * -9 ) 0 0 0 var(--tree-color),
+    calc(var(--indent) * -10) 0 0 0 var(--tree-color),
+    calc(var(--indent) * -11) 0 0 0 var(--tree-color),
+    calc(var(--indent) * -12) 0 0 0 var(--tree-color),
+    calc(var(--indent) * -13) 0 0 0 var(--tree-color);
+}
+
+.explorer-folders-view .monaco-list-row[aria-level="1" ] { padding-left: calc(var(--indent) * 0)  !important; }
+.explorer-folders-view .monaco-list-row[aria-level="2" ] { padding-left: calc(var(--indent) * 1)  !important; }
+.explorer-folders-view .monaco-list-row[aria-level="3" ] { padding-left: calc(var(--indent) * 2)  !important; }
+.explorer-folders-view .monaco-list-row[aria-level="4" ] { padding-left: calc(var(--indent) * 3)  !important; }
+.explorer-folders-view .monaco-list-row[aria-level="5" ] { padding-left: calc(var(--indent) * 4)  !important; }
+.explorer-folders-view .monaco-list-row[aria-level="6" ] { padding-left: calc(var(--indent) * 5)  !important; }
+.explorer-folders-view .monaco-list-row[aria-level="7" ] { padding-left: calc(var(--indent) * 6)  !important; }
+.explorer-folders-view .monaco-list-row[aria-level="8" ] { padding-left: calc(var(--indent) * 7)  !important; }
+.explorer-folders-view .monaco-list-row[aria-level="9" ] { padding-left: calc(var(--indent) * 8)  !important; }
+.explorer-folders-view .monaco-list-row[aria-level="10"] { padding-left: calc(var(--indent) * 9)  !important; }
+.explorer-folders-view .monaco-list-row[aria-level="11"] { padding-left: calc(var(--indent) * 10) !important; }
+.explorer-folders-view .monaco-list-row[aria-level="12"] { padding-left: calc(var(--indent) * 11) !important; }
+.explorer-folders-view .monaco-list-row[aria-level="13"] { padding-left: calc(var(--indent) * 12) !important; }
+.explorer-folders-view .monaco-list-row[aria-level="14"] { padding-left: calc(var(--indent) * 13) !important; }
+.explorer-folders-view .monaco-list-row[aria-level="15"] { padding-left: calc(var(--indent) * 14) !important; }
+
+.explorer-folders-view .monaco-list-row[aria-level="1" ]:before, .monaco-list-row[aria-level="1" ]:after { display: none; }
+.explorer-folders-view .monaco-list-row[aria-level="2" ]:before, .monaco-list-row[aria-level="2" ]:after { left: calc(var(--v-guides-offset) + (0  * var(--indent)));}
+.explorer-folders-view .monaco-list-row[aria-level="3" ]:before, .monaco-list-row[aria-level="3" ]:after { left: calc(var(--v-guides-offset) + (1  * var(--indent)));}
+.explorer-folders-view .monaco-list-row[aria-level="4" ]:before, .monaco-list-row[aria-level="4" ]:after { left: calc(var(--v-guides-offset) + (2  * var(--indent)));}
+.explorer-folders-view .monaco-list-row[aria-level="5" ]:before, .monaco-list-row[aria-level="5" ]:after { left: calc(var(--v-guides-offset) + (3  * var(--indent)));}
+.explorer-folders-view .monaco-list-row[aria-level="6" ]:before, .monaco-list-row[aria-level="6" ]:after { left: calc(var(--v-guides-offset) + (4  * var(--indent)));}
+.explorer-folders-view .monaco-list-row[aria-level="7" ]:before, .monaco-list-row[aria-level="7" ]:after { left: calc(var(--v-guides-offset) + (5  * var(--indent)));}
+.explorer-folders-view .monaco-list-row[aria-level="8" ]:before, .monaco-list-row[aria-level="8" ]:after { left: calc(var(--v-guides-offset) + (6  * var(--indent)));}
+.explorer-folders-view .monaco-list-row[aria-level="9" ]:before, .monaco-list-row[aria-level="9" ]:after { left: calc(var(--v-guides-offset) + (7  * var(--indent)));}
+.explorer-folders-view .monaco-list-row[aria-level="10"]:before, .monaco-list-row[aria-level="10"]:after { left: calc(var(--v-guides-offset) + (8  * var(--indent)));}
+.explorer-folders-view .monaco-list-row[aria-level="11"]:before, .monaco-list-row[aria-level="11"]:after { left: calc(var(--v-guides-offset) + (9  * var(--indent)));}
+.explorer-folders-view .monaco-list-row[aria-level="12"]:before, .monaco-list-row[aria-level="12"]:after { left: calc(var(--v-guides-offset) + (10 * var(--indent)));}
+.explorer-folders-view .monaco-list-row[aria-level="13"]:before, .monaco-list-row[aria-level="13"]:after { left: calc(var(--v-guides-offset) + (11 * var(--indent)));}
+.explorer-folders-view .monaco-list-row[aria-level="14"]:before, .monaco-list-row[aria-level="14"]:after { left: calc(var(--v-guides-offset) + (12 * var(--indent)));}
+.explorer-folders-view .monaco-list-row[aria-level="15"]:before, .monaco-list-row[aria-level="15"]:after { left: calc(var(--v-guides-offset) + (13 * var(--indent)));}
