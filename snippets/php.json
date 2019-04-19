@@ -1,0 +1,44 @@
+{
+	// Place your snippets for php here. Each snippet is defined under a snippet name and has a prefix, body and
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Var Dump": {
+		"prefix": "dump",
+		"body": [
+			"var_dump( $1 );"
+		],
+		"description": "Displays structured information about variables/expressions including its type and value"
+	},
+	"Pre Dump": {
+		"prefix": "dumpre",
+		"body": [
+			"echo '<pre>' , var_dump( $1 ) , '</pre>';"
+		],
+		"description": "var_dump with pre tag"
+	},
+	"Doc Comment": {
+		"prefix": "doc",
+		"body": [
+			"/**",
+			" * Summary$1",
+			" *",
+			" * @link  $2",
+			" * @since $3",
+			" *",
+			" * @package    $4",
+			" * @subpackage $5",
+			" */",
+		],
+		"description": "Doc comment"
+	}
+}
