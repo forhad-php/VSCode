@@ -36,6 +36,8 @@
     15.Ctrl+Shift+Enter     => Insert line above
     16.Ctrl+Home / End      => Scroll to top/bottom
     17.Ctrl + J             => Show/Hide Terminal
+    18. Ctrl + E            => File Explorer (Open Recent)
+    19. Ctrl + U            => Soft Undo (Move the cursor back to it's previous location)
     */
 {
     "phpcs.enable": true,
@@ -174,9 +176,10 @@
         "", // Red
     ],
     "editor.matchBrackets": false, // batter false when "Bracket Pair Colorizer" extentsion enabled.
-    /* Extension : "Custom CSS and JS Loader" by "be5invis"
-    Tips : Every time have changed the imports option,
-    'Custom CSS and JS Loader' need to disable and re-enable with F1 menu. */
+    /**
+    Extension : "Custom CSS and JS Loader" by "be5invis"
+    Tips      : Every time have changed the imports option,
+                'Custom CSS and JS Loader' need to disable and re-enable with F1 menu. */
     "vscode_custom_css.imports": [
         "file:///C:/vscss/styles.css"
     ],
@@ -191,4 +194,8 @@
     "terminal.integrated.shellArgs.windows": [
         "/k C:\\cmder\\vendor\\init.bat"
     ],
+    // Working Markdown Snippet
+    "[markdown]": {
+        "editor.quickSuggestions": true
+    }
 }
