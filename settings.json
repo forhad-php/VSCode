@@ -18,26 +18,27 @@
     1. Material Theme - Palenight High Contrast
 
     VSCode + JetBrains IDE Keymap Shortcuts :
-    0. F1                   => Show Command Palette
-    1. Ctrl + W             => Extend selection
-    2. Ctrl + Shift + W     => Shrink selection
-    3. Ctrl + Shift + \     => Jump/Jump Back to Matching Brace
-    4. Ctrl + G             => Go to Line
-    5. Ctrl +] / [          => Indent/outdent line
-    6. Ctrl+Shift+\         => Jump to matching bracket
-    7. Ctrl + D               => Duplicate current line
-    8. Alt+ ← / →          => Jump back / forward
-    9. Alt+Click            => Insert cursor
-    10.Ctrl+Alt+ ↑ / ↓      => Insert cursor above / below
-    11. Esc                 => Escape the multi-line selection
-    12.Ctrl+U               => Undo last cursor operation
-    13.Ctrl+Shift↑ / ↓      => Move up/down with current line
-    14.Ctrl+Enter           => Insert line below
-    15.Ctrl+Shift+Enter     => Insert line above
-    16.Ctrl+Home / End      => Scroll to top/bottom
-    17.Ctrl + J             => Show/Hide Terminal
-    18. Ctrl + E            => File Explorer (Open Recent)
-    19. Ctrl + U            => Soft Undo (Move the cursor back to it's previous location)
+    0. F1                    => Show Command Palette
+    1. Ctrl + W              => Extend selection
+    2. Ctrl + Shift + +/-    => Fold All/Unfold All
+    3. Ctrl + Shift + W      => Shrink selection
+    4. Ctrl + Shift + \      => Jump/Jump Back to Matching Brace
+    5. Ctrl + G              => Go to Line
+    6. Ctrl + ] / [          => Indent/outdent line
+    7. Ctrl+ Shift+ \        => Jump to matching bracket
+    8. Ctrl + D               => Duplicate current line
+    9. Alt + ← / →         => Jump back / forward
+    10. Alt + Click          => Insert cursor
+    11.Ctrl + Alt+ ↑ / ↓     => Insert cursor above / below
+    12.Esc                   => Escape the multi-line selection
+    13.Ctrl + U              => Undo last cursor operation
+    14.Ctrl + Shift ↑ / ↓    => Move up/down with current line
+    15.Ctrl + Enter          => Insert line below
+    16.Ctrl + Shift + Enter  => Insert line above
+    17.Ctrl + Home / End     => Scroll to top/bottom
+    18.Ctrl + J              => Show/Hide Terminal
+    19.Ctrl + E              => File Explorer (Open Recent)
+    20.Ctrl + U              => Soft Undo (Move the cursor back to it's previous location)
     */
 {
     "phpcs.enable": true,
