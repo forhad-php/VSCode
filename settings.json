@@ -41,6 +41,13 @@
     20.Ctrl + U              => Soft Undo (Move the cursor back to it's previous location)
     */
 {
+    /* Controls how windows are being reopened after a restart.
+     * all: Reopen all windows.
+     * folders: Reopen all folders. Empty workspaces will not be restored.
+     * one: Reopen the last active window.
+     * none: Never reopen a window. Always start with an empty one. */
+    "window.restoreWindows": "all",
+    // PHPCS
     "phpcs.enable": true,
     "phpcs.standard": "WordPress",
     // The path to a PHP 7+ executable.
@@ -49,6 +56,16 @@
     "phpcs_executable_path": "C:\/composer\/vendor\/bin\/phpcs.bat",
     "jetbrainsKeymap.promptV3Features": true,
     "editor.formatOnPaste": true,
+    // Extension "phpcbf" by "Per Soderlind" settings
+    "phpcbf.enable": true,
+    "phpcbf.onsave": false,
+    "phpcbf.debug": true,
+    "phpcbf.standard": "WordPress",
+    "phpcbf.executablePath": "C:\/Users\/Forhad\/AppData\/Roaming\/Composer\/vendor\/bin\/phpcbf.bat",
+    // Extension : "GitLens" Settings required
+    "git.enabled": true,
+    "git.path": "C:\\cmder\\vendor\\git-for-windows\\cmd\\git.exe",
+    "git.ignoreMissingGitWarning": true,
     // --- Theme Setup Start --- //
     "workbench.colorTheme": "Material Theme Palenight High Contrast",
     "editor.fontFamily": "Operator Mono Lig",
@@ -152,15 +169,7 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "breadcrumbs.enabled": true,
     // --- Theme Setup End --- //
-    // Extension "phpcbf" by "Per Soderlind" settings //
-    "phpcbf.enable": true,
-    "phpcbf.onsave": false,
-    "phpcbf.debug": true,
-    "phpcbf.standard": "WordPress",
-    "phpcbf.executablePath": "C:\/Users\/Forhad\/AppData\/Roaming\/Composer\/vendor\/bin\/phpcbf.bat",
-    // End "phpcbf" Settings //
     "liveServer.settings.donotShowInfoMsg": true,
-    "git.ignoreMissingGitWarning": true,
     // Extension : Bracket Pair Colorizer
     "bracketPairColorizer.consecutivePairColors": [
         "()",
@@ -185,9 +194,6 @@
         "file:///C:/vscss/styles.css"
     ],
     "vscode_custom_css.policy": true,
-    // Extension : "GitLens" Settings required
-    "git.enabled": true,
-    "git.path": "C:\\cmder\\vendor\\git-for-windows\\cmd\\git.exe",
     // Terminal Settings
     "terminal.integrated.fontFamily": "Monofur for Powerline",
     "terminal.integrated.fontSize": 18,
