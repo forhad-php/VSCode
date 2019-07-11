@@ -24,3 +24,23 @@
  Ctrl + E | File Explorer (Open Recent)
  Ctrl + U | Soft Undo (Move the cursor back to it's previous location)
  
+## Visual Studio Code EXTENSIONS :
+
+    1. WordPress VS Code Extension Pack
+    2. Code Runner
+    3. GitLens — Git supercharged
+    4. ESLint
+    5. "Highlight Matching Tag" by "vincaslt"
+    6. JetBrains IDE Keymap
+    7. Live Server
+    8. Path Intellisense
+    9. "PHP DocBlocker" by "Neil Brayfield"
+    10. "phpcbf" by "Per Soderlind"
+    11. Bracket Pair Colorizer
+    12. "Custom CSS and JS Loader" by "be5invis"
+    13. Project Manager
+    14. "JS & CSS Minifier" by "Olback"
+
+## Visual Studio Code Theme :
+
+    1. Material Theme - Palenight High Contrast
