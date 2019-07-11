@@ -13,6 +13,7 @@
     11. Bracket Pair Colorizer
     12. "Custom CSS and JS Loader" by "be5invis"
     13. Project Manager
+    14. "JS & CSS Minifier" by "Olback"
 
     Visual Studio Code Theme :
     1. Material Theme - Palenight High Contrast
@@ -205,5 +206,9 @@
     // Working Markdown Snippet
     "[markdown]": {
         "editor.quickSuggestions": true
-    }
+    },
+    // Extension : "JS & CSS Minifier" by "Olback"
+    "es6-css-minify.genCSSmap": true,
+    "es6-css-minify.genJSmap": true,
+    "es6-css-minify.minifyOnSave": "yes" // "no" for dev mode
 }
