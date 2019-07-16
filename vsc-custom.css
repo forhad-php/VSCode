@@ -13,6 +13,17 @@
 }
 
 /**
+ * My custom Color
+ * For footer status bar specific extension
+ */
+#olback\.es6-css-minify {
+  color: #419DDE;
+}
+#ritwickdey\.LiveServer span {
+  color: #cf202e;
+}
+
+/**
  * VSCode Sidebar FileTree Styles !!
  *
  * Source 0     : https://gist.github.com/Lightfire228/39dc2cf403237a190e79a000912691b2
@@ -22,7 +33,6 @@
  * File URI     : file:///C:/Path/to/file/style.css
  * Github Issue : https://github.com/Microsoft/vscode/issues/17777
  */
-
 :root {
   /** Indentation level **/
   --indent: 20px;
