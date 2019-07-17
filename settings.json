@@ -68,6 +68,7 @@
     "git.path": "C:\\cmder\\vendor\\git-for-windows\\cmd\\git.exe",
     "git.ignoreMissingGitWarning": true,
     // --- Theme Setup Start --- //
+    "window.title": "${rootName}", // "<Custom Text> : ${rootName}${separator}${activeEditorShort}"
     "workbench.tree.renderIndentGuides": "none",
     "workbench.colorTheme": "Material Theme Palenight High Contrast",
     "editor.fontFamily": "Operator Mono Lig",
