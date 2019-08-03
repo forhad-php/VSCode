@@ -40,6 +40,7 @@
     12. "Custom CSS and JS Loader" by "be5invis"
     13. Project Manager
     14. "JS & CSS Minifier" by "Olback"
+    15. Git Graph
 
 ## Visual Studio Code Theme :
 
