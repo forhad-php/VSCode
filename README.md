@@ -7,6 +7,7 @@
  Ctrl + Shift + +/- | Fold All/Unfold All
  Ctrl + Shift + W | Shrink selection
  Ctrl + Shift + \ | Jump/Jump Back to Matching Brace
+ Ctrl + Shift + / | Jump/Jump Back to Matching Tag > To set this key, go to → File > Preferences > Keyboard Shortcuts > Highlight Matching Tag: Jump to matching tag
  Ctrl + G | Go to Line
  Ctrl + ] / [ | Indent/outdent line
  Ctrl+ Shift+ \ | Jump to matching bracket
