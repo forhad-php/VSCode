@@ -168,5 +168,8 @@
     // Extension : "JS & CSS Minifier" by "Olback"
     "es6-css-minify.genCSSmap": true,
     "es6-css-minify.genJSmap": true,
-    "es6-css-minify.minifyOnSave": "yes" // "no" for dev mode
+    "es6-css-minify.minifyOnSave": "no", // "yes" for dev mode
+    // HTML & CSS
+    "html.autoClosingTags": true,
+    "editor.colorDecorators": true, // color picker
 }
