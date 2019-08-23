@@ -7,8 +7,7 @@
  Ctrl + Shift + +/- | Fold All/Unfold All
  Ctrl + Shift + W | Shrink selection
  Ctrl + Shift + \ | Jump/Jump Back to Matching Brace
- Ctrl + Shift + / | Jump/Jump Back to Matching Tag.
- `Note: To set this key, go to → File > Preferences > Keyboard Shortcuts > Highlight Matching Tag: Jump to matching tag`
+ Ctrl + Shift + / | Jump/Jump Back to Matching Tag. 
  Ctrl + G | Go to Line
  Ctrl + ] / [ | Indent/outdent line
  Ctrl + D | Duplicate current line
@@ -24,7 +23,8 @@
  Ctrl + J | Show/Hide Terminal
  Ctrl + E | File Explorer (Open Recent)
  Ctrl + U | Soft Undo (Move the cursor back to it's previous location)
- 
+> Note: To set the `Jump to matching tag` key, go to: File > Preferences > Keyboard Shortcuts > Highlight Matching Tag: Jump to matching tag
+
 ## Visual Studio Code EXTENSIONS :
 
     1. WordPress VS Code Extension Pack
