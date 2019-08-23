@@ -23,7 +23,7 @@
  Ctrl + J | Show/Hide Terminal
  Ctrl + E | File Explorer (Open Recent)
  Ctrl + U | Soft Undo (Move the cursor back to it's previous location)
-> Note: To set the `Jump to matching tag` key, go to: File > Preferences > Keyboard Shortcuts > Highlight Matching Tag: Jump to matching tag
+> Note: To set the `Jump to matching tag` key, go to: File > Preferences > Keyboard Shortcuts > `Highlight Matching Tag: Jump to matching tag` & set this shortcut key `Ctrl + Shift + /`
 
 ## Visual Studio Code EXTENSIONS :
 
