@@ -110,7 +110,7 @@
                     "meta.var-single-variable.expr.js",
                 ],
                 "settings": {
-                    "fontStyle": "bold",
+                    "fontStyle": "",
                 }
             },
             {
@@ -157,6 +157,30 @@
     // Terminal Settings
     "terminal.integrated.fontFamily": "Monofur for Powerline",
     "terminal.integrated.fontSize": 18,
+    "terminal.integrated.lineHeight": 1.2,
+    /**
+    Source → https://gist.github.com/lol-russo/1c7a0b958be4b9434c5a120f24d5e7c3
+    Source → https: //glitchbone.github.io/vscode-base16-term */
+    "workbench.colorCustomizations": {
+        "terminalCursor.background": "#A5A2A2",
+        "terminalCursor.foreground": "#A5A2A2",
+        "terminal.ansiBlack": "#090300",
+        "terminal.ansiBlue": "#005e86",
+        "terminal.ansiBrightBlack": "#5C5855",
+        "terminal.ansiBrightBlue": "#01A0E4",
+        "terminal.ansiBrightCyan": "#B5E4F4",
+        "terminal.ansiBrightGreen": "#01A252",
+        "terminal.ansiBrightMagenta": "#A16A94",
+        "terminal.ansiBrightRed": "#DB2D20",
+        "terminal.ansiBrightWhite": "#F7F7F7",
+        "terminal.ansiBrightYellow": "#FDED02",
+        "terminal.ansiCyan": "#B5E4F4",
+        "terminal.ansiGreen": "#00743a",
+        "terminal.ansiMagenta": "#A16A94",
+        "terminal.ansiRed": "#DB2D20",
+        "terminal.ansiWhite": "#A5A2A2",
+        "terminal.ansiYellow": "#9b9000"
+    },
     "terminal.integrated.shell.windows": "C:\\Windows\\SysWOW64\\cmd.exe",
     "terminal.integrated.shellArgs.windows": [
         "/k C:\\cmder\\vendor\\init.bat"
@@ -168,8 +192,9 @@
     // Extension : "JS & CSS Minifier" by "Olback"
     "es6-css-minify.genCSSmap": true,
     "es6-css-minify.genJSmap": true,
-    "es6-css-minify.minifyOnSave": "no", // "yes" for dev mode
+    "es6-css-minify.minifyOnSave": "no", // change to "yes" when needed
     // HTML & CSS
     "html.autoClosingTags": true,
     "editor.colorDecorators": true, // color picker
+
 }
