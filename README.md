@@ -13,7 +13,7 @@
  Ctrl + D | Duplicate current line
  Alt + ← / → | Jump back / forward
  Alt + Click | Insert cursor
- Ctrl + Alt+ ↑ / ↓ | Insert cursor above / below
+ Ctrl + Alt + ↑ / ↓ | Insert cursor above / below
  Esc | Escape the multi-line selection
  Ctrl + U | Undo last cursor operation
  Ctrl + Shift ↑ / ↓ | Move up/down with current line
