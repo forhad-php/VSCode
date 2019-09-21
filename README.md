@@ -42,6 +42,7 @@
     13. Project Manager
     14. "JS & CSS Minifier" by "Olback"
     15. Git Graph
+    16. "Prettier - Code formatter" by "Esben Petersen"
 
 ## Visual Studio Code Theme :
 
