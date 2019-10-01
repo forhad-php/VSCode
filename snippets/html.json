@@ -12,6 +12,13 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"P Tag": {
+		"prefix": "p",
+		"body": [
+			"<p>$1</p>"
+		],
+		"description": "Paragraph Tag"
+	},
 	"PHP Tag": {
 		"prefix": "php",
 		"body": [
