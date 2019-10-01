@@ -19,6 +19,13 @@
 		],
 		"description": "Paragraph Tag"
 	},
+	"LI Tag": {
+		"prefix": "li",
+		"body": [
+			"<li>$1</li>"
+		],
+		"description": "List Tag"
+	},
 	"PHP Tag": {
 		"prefix": "php",
 		"body": [
