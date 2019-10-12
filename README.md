@@ -43,6 +43,7 @@
     14. "JS & CSS Minifier" by "Olback"
     15. Git Graph
     16. "Prettier - Code formatter" by "Esben Petersen"
+    17. "Color Info" by "Matt Bierner"
 
 ## Visual Studio Code Theme :
 
