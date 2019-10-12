@@ -45,7 +45,7 @@
     16. "Prettier - Code formatter" by "Esben Petersen"
     17. "Color Info" by "Matt Bierner"
     
-> Note: After a new update "Custom CSS and JS Loader" gives some error then we'll use an extension named "Fix VSCode Checksums". Once the checksum changes are applied and VSCode is restarted, all warning about core file modifications will disappear, such as the display of [Unsupported] in the title-bar.
+> Note: After got a new update on vscode, "Custom CSS and JS Loader" extention could gives some error. We can use an extension named "Fix VSCode Checksums." Once the checksum changes are applied and VSCode is restarted, all warning about core file modifications will disappear, such as the display of [Unsupported] in the title-bar.
 
 ## Visual Studio Code Theme :
 
