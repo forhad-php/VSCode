@@ -39,6 +39,7 @@
     10. "phpcbf" by "Per Soderlind"
     11. Bracket Pair Colorizer
     12. "Custom CSS and JS Loader" by "be5invis"
+    > Note: After a new update "Custom CSS and JS Loader" gives some error then we'll use an extension named "Fix VSCode Checksums". Once the checksum changes are applied and VSCode is restarted, all warning about core file modifications will disappear, such as the display of [Unsupported] in the title-bar.
     13. Project Manager
     14. "JS & CSS Minifier" by "Olback"
     15. Git Graph
