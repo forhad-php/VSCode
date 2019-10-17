@@ -3,6 +3,7 @@
 | Key | For |
 | --- | --- |
  F1 | Show Command Palette
+ F11 | Toggle Full Screen
  Ctrl + W | Extend selection
  Ctrl + Shift + +/- | Fold All/Unfold All
  Ctrl + Shift + W | Shrink selection
@@ -25,6 +26,7 @@
  Ctrl + U | Soft Undo (Move the cursor back to it's previous location)
 Ctrl + F | Search
 Ctrl + Shift + F | Search in File
+Alt + numpad1 | Show/Hide explorer
 > Note: To set the `Jump to matching tag` key, go to: File > Preferences > Keyboard Shortcuts > Find: `Highlight Matching Tag: Jump to matching tag` & set this shortcut key `Ctrl + Shift + /`
 
 ## Visual Studio Code EXTENSIONS :
