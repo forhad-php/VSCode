@@ -26,7 +26,7 @@
  Ctrl + U | Soft Undo (Move the cursor back to it's previous location)
 Ctrl + F | Search
 Ctrl + Shift + F | Search in File
-Alt + numpad1 | Show/Hide explorer
+Ctrl + B | Show/Hide sidebar
 > Note: To set the `Jump to matching tag` key, go to: File > Preferences > Keyboard Shortcuts > Find: `Highlight Matching Tag: Jump to matching tag` & set this shortcut key `Ctrl + Shift + /`
 
 ## Visual Studio Code EXTENSIONS :
