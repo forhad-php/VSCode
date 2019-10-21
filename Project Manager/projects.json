@@ -1,0 +1,65 @@
+[
+	{
+		"name": "$home",
+		"rootPath": "$home\\..\\..\\xampp\\htdocs\\",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "Integral Projects",
+		"rootPath": "$home\\..\\..\\xampp\\htdocs\\INTEGRAL-PROJECTS\\",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "WP Post Slider",
+		"rootPath": "C:\\xampp\\htdocs\\wp-post-slider\\wp-content\\plugins\\wp-post-slider",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "Easy Accordion Pro",
+		"rootPath": "C:\\xampp\\htdocs\\easy-accordion-pro\\wp-content\\plugins\\easy-accordion-pro",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "QC Environment",
+		"rootPath": "C:\\xampp\\htdocs\\qc-environment\\wp-content\\plugins",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "WP Tabs Pro",
+		"rootPath": "C:\\xampp\\htdocs\\wp-tabs-pro\\wp-content\\plugins\\wp-tabs-pro",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "Team Pro",
+		"rootPath": "C:\\xampp\\htdocs\\team-pro\\wp-content\\plugins\\team-pro",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "WP Carousel Pro",
+		"rootPath": "C:\\xampp\\htdocs\\wp-carousel-pro\\wp-content\\plugins\\wp-carousel-pro",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "Post Carousel Pro *NEW*",
+		"rootPath": "C:\\xampp\\htdocs\\post-carousel-pro-new\\wp-content\\plugins\\post-carousel-pro-new",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	}
+]
