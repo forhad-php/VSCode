@@ -23,6 +23,7 @@
  Ctrl + Home / End | Scroll to top/bottom
  Ctrl + J | Show/Hide Terminal
  Ctrl + E | File Explorer (Open Recent)
+ Shift + Alt + P | Project Manager Exporer
  Ctrl + U | Soft Undo (Move the cursor back to it's previous location)
 Ctrl + F | Search
 Ctrl + Shift + F | Search in File
