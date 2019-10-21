@@ -28,6 +28,7 @@
     "phpcs.standard": "WordPress",
     }
     ```
+    > Make sure path is correct by command `where php`, `where phpcs` & `where phpcbf`
 8. Now going to add PHP to Windows Path Variable 
     - Search Start menu > "Advanced system settings"
     - Click "Environment Variables…"
