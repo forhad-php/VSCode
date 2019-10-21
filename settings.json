@@ -8,10 +8,11 @@
     // PHPCS
     "phpcs.enable": true,
     "phpcs.standard": "WordPress",
+    "phpcs.executablePath": "C:\\Users\\Forhad\\AppData\\Roaming\\Composer\\vendor\\bin\\phpcs.bat",
+    "phpcs.autoConfigSearch": true,
     // The path to a PHP 7+ executable.
     "php.executablePath": "C:\/xampp\/php\/php.exe",
     "php.validate.executablePath": "C:\/xampp\/php\/php.exe",
-    "phpcs_executable_path": "C:\/composer\/vendor\/bin\/phpcs.bat",
     "jetbrainsKeymap.promptV3Features": true,
     "editor.formatOnPaste": true,
     // Extension "phpcbf" by "Per Soderlind" settings
@@ -189,6 +190,11 @@
     "[markdown]": {
         "editor.quickSuggestions": true
     },
+    // Extension : Project Manager
+    "projectManager.sortList": "Recent", // Name, Saved, Path, Recent
+    "projectManager.git.baseFolders": [
+        "C:\\xampp\\htdocs\\"
+    ],
     // Extension : "JS & CSS Minifier" by "Olback"
     "es6-css-minify.genCSSmap": true,
     "es6-css-minify.genJSmap": true,
