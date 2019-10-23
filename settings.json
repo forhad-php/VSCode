@@ -204,6 +204,15 @@
         "css-color-name",
         "alpha"
     ],
+    /**
+     * Extension : "Line Note" by "tkrkt"
+     * Tips: You can put hyperlinks in notes by writing #L42 or ../foo.js#L12-L15.
+     * #L12-L15 means line number 12 to 15
+     */
+    "linenote.lineColor": "rgba(41, 42, 56, 0.5)",
+    "linenote.rulerColor": "rgba(255, 255, 0, 0.4)",
+    "linenote.automaticallyDelete": false,
+    "linenote.showGutterIcon": true,
     // HTML & CSS
     "html.autoClosingTags": true,
     "editor.colorDecorators": true, // color picker
