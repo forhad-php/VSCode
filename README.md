@@ -33,7 +33,7 @@ Ctrl + Alt + D + D | Document This (Only on JS file)
 
 ## Visual Studio Code EXTENSIONS :
 
-    1. WordPress VS Code Extension Pack
+    1. WordPress VS Code Extension Pack (9 extensions included)
     2. Code Runner
     3. GitLens — Git supercharged
     4. ESLint
@@ -41,16 +41,15 @@ Ctrl + Alt + D + D | Document This (Only on JS file)
     6. JetBrains IDE Keymap
     7. Live Server
     8. Path Intellisense
-    9. "PHP DocBlocker" by "Neil Brayfield"
-    10. "Document This" by "Joel Day"
-    11. "phpcbf" by "Per Soderlind"
-    12. Bracket Pair Colorizer
-    13. "Custom CSS and JS Loader" by "be5invis"
-    14. Project Manager
-    15. "JS & CSS Minifier" by "Olback"
-    16. Git Graph
-    17. "Prettier - Code formatter" by "Esben Petersen"
-    18. "Color Info" by "Matt Bierner"
+    9. "Document This" by "Joel Day"
+    10. "phpcbf" by "Per Soderlind"
+    11. Bracket Pair Colorizer
+    12. "Custom CSS and JS Loader" by "be5invis"
+    13. Project Manager
+    14. "JS & CSS Minifier" by "Olback"
+    15. Git Graph
+    16. "Prettier - Code formatter" by "Esben Petersen"
+    17. "Color Info" by "Matt Bierner"
     
 > Note: After got a new update on vscode, "Custom CSS and JS Loader" extention could gives some error. We can use an extension named "Fix VSCode Checksums." Press <kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> and Enable Fix Checksums. Once the checksum changes are applied and VSCode is restarted, all warning about core file modifications will disappear, such as the display of [Unsupported] in the title-bar.
 
