@@ -28,6 +28,7 @@
 Ctrl + F | Search
 Ctrl + Shift + F | Search in File
 Ctrl + B | Show/Hide sidebar
+Ctrl + Alt + D + D | Document This (Only on JS file)
 > Note: To set the `Jump to matching tag` key, go to: File > Preferences > Keyboard Shortcuts > Find: `Highlight Matching Tag: Jump to matching tag` & set this shortcut key `Ctrl + Shift + /`
 
 ## Visual Studio Code EXTENSIONS :
