@@ -16,12 +16,12 @@
  * My custom Color
  * For footer status bar specific extension
  */
-#olback\.es6-css-minify {
-  color: #419DDE;
-}
-#ritwickdey\.LiveServer span {
+#ritwickdey\.LiveServer span,
+#ms-vsliveshare\.vsliveshare span,
+#olback\.es6-css-minify span {
   color: #cf202e;
 }
+
 .monaco-workbench .part.titlebar>.window-title {
   color: #fff;
   font-weight: bold;
