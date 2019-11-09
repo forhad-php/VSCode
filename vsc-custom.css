@@ -155,3 +155,8 @@
 .explorer-folders-view .monaco-list-row[aria-level="13"]:before, .monaco-list-row[aria-level="13"]:after { left: calc(var(--v-guides-offset) + (11 * var(--indent)));}
 .explorer-folders-view .monaco-list-row[aria-level="14"]:before, .monaco-list-row[aria-level="14"]:after { left: calc(var(--v-guides-offset) + (12 * var(--indent)));}
 .explorer-folders-view .monaco-list-row[aria-level="15"]:before, .monaco-list-row[aria-level="15"]:after { left: calc(var(--v-guides-offset) + (13 * var(--indent)));}
+
+/* A little tweak for VSCode sidebar file tree border adjustment. */
+.codicon-chevron-down:before {
+  margin-left: 5px;
+}
