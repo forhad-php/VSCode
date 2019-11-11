@@ -1,3 +1,9 @@
+## VSCode Command :
+
+Command | For
+--- | ---
+code . | Launching from command line
+
 ## VSCode + JetBrains IDE Keymap Shortcuts :
 
 | Key | For |
