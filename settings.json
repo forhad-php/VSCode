@@ -214,7 +214,22 @@
     "linenote.automaticallyDelete": false,
     "linenote.showGutterIcon": true,
     // HTML & CSS
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
     "html.autoClosingTags": true,
     "editor.colorDecorators": true, // color picker
+    // Code Spell Checker.
+    "cSpell.userWords": [
+        "Shortcode",
+        "aspectratio",
+        "fancybox",
+        "fontawesome",
+        "gotoslide",
+        "readmore",
+        "shapedplugin",
+        "sliderpro",
+        "subpackage"
+    ],
 
 }
