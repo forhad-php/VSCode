@@ -17,8 +17,7 @@
  * For footer status bar specific extension
  */
 #ritwickdey\.LiveServer span,
-#ms-vsliveshare\.vsliveshare span,
-#olback\.es6-css-minify span {
+#status\.problems span {
   color: #cf202e;
 }
 
