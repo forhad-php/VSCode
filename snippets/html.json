@@ -12,25 +12,19 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"P Tag": {
-		"prefix": "p",
-		"body": [
-			"<p>$1</p>"
-		],
-		"description": "Paragraph Tag"
-	},
-	"LI Tag": {
-		"prefix": "li",
-		"body": [
-			"<li>$1</li>"
-		],
-		"description": "List Tag"
-	},
+	
 	"PHP Tag": {
 		"prefix": "php",
 		"body": [
 			"<?php $1 ?>"
 		],
 		"description": "PHP Tag"
+	},
+	"Placeholder Image": {
+		"prefix": "img:place",
+		"body": [
+			"<img src=\"https://placeimg.com/200/100/nature\" alt=\"Natural\">"
+		],
+		"description": "Placeholder Image"
 	}
 }
