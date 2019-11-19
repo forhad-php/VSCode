@@ -61,11 +61,11 @@ Ctrl + Alt + D + D | Document This (Only on JS file)
     20. "Polacode" by "P & P"
 
 ___
-> **Tips for Extension 'WordPress VS Code Extension Pack';** After install this extension uninstall the extension **'WordPress VS Code Extension Pack'** itself. Then you will be allowed to uninstall the sub packages. Uninstall the subpackage **ACF-Snippet** coz this snippet annoyed on HTML file :angry:
+> **Tip for Extension 'WordPress VS Code Extension Pack';** After install this extension uninstall the extension **'WordPress VS Code Extension Pack'** itself. Then you will be allowed to uninstall the sub packages. Uninstall the subpackage **ACF-Snippet** coz this snippet annoyed on HTML file :angry:
 
-> **Tips for Extension 'Custom CSS and JS Loader';** After got a new update on vscode, "Custom CSS and JS Loader" extention could gives some error. We can use an extension named "Fix VSCode Checksums." Press <kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> and Enable Fix Checksums. Once the checksum changes are applied and VSCode is restarted, all warning about core file modifications will disappear, such as the display of [Unsupported] in the title-bar.
+> **Tip for Extension 'Custom CSS and JS Loader';** After got a new update on vscode, "Custom CSS and JS Loader" extention could gives some error. We can use an extension named "Fix VSCode Checksums." Press <kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> and Enable Fix Checksums. Once the checksum changes are applied and VSCode is restarted, all warning about core file modifications will disappear, such as the display of [Unsupported] in the title-bar.
 
-> **Tips for Extension 'Line Note';** You can put hyperlinks in notes by writing #L42 or ../foo.js#L12-L15. #L12-L15 means line number 12 to 15
+> **Tip for Extension 'Line Note';** You can put hyperlinks in notes by writing #L42 or ../foo.js#L12-L15. #L12-L15 means line number 12 to 15
 ___
 
 ## Visual Studio Code Theme :
