@@ -58,7 +58,6 @@ Ctrl + Alt + D + D | Document This (Only on JS file)
     17. "Color Info" by "Matt Bierner"
     18. "Line Note" by "tkrkt"
     19. "Code Spell Checker" by "Street Side Software"
-    20. "Live Share" by "Microsoft"
 
 ___
 > **Tips for Extension 'Custom CSS and JS Loader';** After got a new update on vscode, "Custom CSS and JS Loader" extention could gives some error. We can use an extension named "Fix VSCode Checksums." Press <kbd>CTRL</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> and Enable Fix Checksums. Once the checksum changes are applied and VSCode is restarted, all warning about core file modifications will disappear, such as the display of [Unsupported] in the title-bar.
