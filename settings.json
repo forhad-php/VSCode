@@ -186,10 +186,6 @@
     "terminal.integrated.shellArgs.windows": [
         "/k C:\\cmder\\vendor\\init.bat"
     ],
-    // Working Markdown Snippet
-    "[markdown]": {
-        "editor.quickSuggestions": true
-    },
     // Extension : Project Manager
     "projectManager.sortList": "Recent", // Name, Saved, Path, Recent
     "projectManager.git.baseFolders": [
@@ -213,9 +209,15 @@
     "linenote.rulerColor": "rgba(255, 255, 0, 0.4)",
     "linenote.automaticallyDelete": false,
     "linenote.showGutterIcon": true,
-    // HTML & CSS
-    "[html]": {
+    // Code Formatter
+    "[markdown]": { // Working Markdown Snippet
+        "editor.quickSuggestions": true
+    },
+    "[html]": { // Including CSS
         "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "html.autoClosingTags": true,
     "editor.colorDecorators": true, // color picker
