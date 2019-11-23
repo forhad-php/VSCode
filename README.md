@@ -58,7 +58,7 @@ Ctrl + Alt + D + D | Document This (Only on JS file)
     17. "Color Info" by "Matt Bierner"
     18. "Line Note" by "tkrkt"
     19. "Code Spell Checker" by "Street Side Software"
-    20. Polacode :camera:
+    20. Polacode 📸
 
 ___
 > **Tip for Extension 'WordPress VS Code Extension Pack';** After install this extension uninstall the extension **'WordPress VS Code Extension Pack'** itself. Then you will be allowed to uninstall the sub packages. Uninstall the subpackage **ACF-Snippet** coz this snippet annoyed on HTML file :angry:
