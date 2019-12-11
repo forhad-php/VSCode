@@ -163,8 +163,7 @@
     Source → https://gist.github.com/lol-russo/1c7a0b958be4b9434c5a120f24d5e7c3
     Source → https: //glitchbone.github.io/vscode-base16-term */
     "workbench.colorCustomizations": {
-        "terminalCursor.background": "#A5A2A2",
-        "terminalCursor.foreground": "#A5A2A2",
+        "terminalCursor.foreground": "#00ffaa",
         "terminal.ansiBlack": "#090300",
         "terminal.ansiBlue": "#005e86",
         "terminal.ansiBrightBlack": "#5C5855",
@@ -182,6 +181,7 @@
         "terminal.ansiWhite": "#A5A2A2",
         "terminal.ansiYellow": "#9b9000"
     },
+    "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.shell.windows": "C:\\Windows\\SysWOW64\\cmd.exe",
     "terminal.integrated.shellArgs.windows": [
         "/k C:\\cmder\\vendor\\init.bat"
