@@ -4,33 +4,29 @@ Command | For
 --- | ---
 code . | Launching from command line
 
-## VSCode + JetBrains IDE Keymap Shortcuts :
+## VSCode My Favorite Shortcuts :
 
 | Key | For |
 | --- | --- |
  F1 | Show Command Palette
  F11 | Toggle Full Screen
- Ctrl + W | Extend selection
- Ctrl + Shift + +/- | Fold All/Unfold All
- Ctrl + Shift + W | Shrink selection
+ Shift + Alt + RightArrow | Smart Extend selection
  Ctrl + Shift + \ | Jump/Jump Back to Matching Brace
  Ctrl + Shift + / | Jump/Jump Back to Matching Tag. 
  Ctrl + G | Go to Line
- Ctrl + ] / [ | Indent/outdent line
  Ctrl + D | Duplicate current line
  Alt + ← / → | Jump back / forward
  Alt + Click | Insert cursor
  Ctrl + Alt + ↑ / ↓ | Insert cursor above / below
  Esc | Escape the multi-line selection
- Ctrl + U | Undo last cursor operation
- Ctrl + Shift ↑ / ↓ | Move up/down with current line
+ Ctrl + U | Soft Undo (Move the cursor back to it's previous location)
+ Alt + ↑ / ↓ | Move up/down with current line
  Ctrl + Enter | Insert line below
  Ctrl + Shift + Enter | Insert line above
  Ctrl + Home / End | Scroll to top/bottom
  Ctrl + J | Show/Hide Terminal
  Ctrl + E | File Explorer (Open Recent)
  Shift + Alt + P | Project Manager Exporer
- Ctrl + U | Soft Undo (Move the cursor back to it's previous location)
 Ctrl + F | Search
 Ctrl + Shift + F | Search in File
 Ctrl + B | Show/Hide sidebar
