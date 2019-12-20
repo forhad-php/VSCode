@@ -12,7 +12,7 @@ code . | Launching from command line
  F11 | Toggle Full Screen
  Shift + Alt + RightArrow | Smart Extend selection
  Ctrl + Shift + \ | Jump/Jump Back to Matching Brace
- Ctrl + Shift + / | Jump/Jump Back to Matching Tag. 
+ Ctrl + Shift + / | Jump/Jump Back to Matching Tag. (Extension required: Highlight Matching Tag)
  Ctrl + G | Go to Line
  Ctrl + D | Duplicate current line
  Ctrl + Shift + D | Add Selection To Next Find Match
@@ -34,7 +34,6 @@ Ctrl + B | Show/Hide sidebar
 Ctrl + PageUp/PageDown | Go next/previous tab
 Ctrl + Shift + PageUp/PageDown | Move next/previous tab itself
 Ctrl + Alt + D + D | Document This (Only on JS file)
-> Note: To set the `Jump to matching tag` key, go to: File > Preferences > Keyboard Shortcuts > Find: `Highlight Matching Tag: Jump to matching tag` & set this shortcut key `Ctrl + Shift + /`
 
 ## Visual Studio Code EXTENSIONS :
 
