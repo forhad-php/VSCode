@@ -15,9 +15,10 @@ code . | Launching from command line
  Ctrl + Shift + / | Jump/Jump Back to Matching Tag. 
  Ctrl + G | Go to Line
  Ctrl + D | Duplicate current line
+ Ctrl + Shift + D | Add Selection To Next Find Match
  Alt + ← / → | Jump back / forward
  Alt + Click | Insert cursor
- Ctrl + Alt + ↑ / ↓ | Insert cursor above / below
+ Ctrl + Alt + ↑ / ↓ | Add cursor above / below
  Esc | Escape the multi-line selection
  Ctrl + U | Soft Undo (Move the cursor back to it's previous location)
  Alt + ↑ / ↓ | Move up/down with current line
@@ -30,6 +31,7 @@ code . | Launching from command line
 Ctrl + F | Search
 Ctrl + Shift + F | Search in File
 Ctrl + B | Show/Hide sidebar
+Ctrl + PageUp/PageDown | Go next/previous tab
 Ctrl + Alt + D + D | Document This (Only on JS file)
 > Note: To set the `Jump to matching tag` key, go to: File > Preferences > Keyboard Shortcuts > Find: `Highlight Matching Tag: Jump to matching tag` & set this shortcut key `Ctrl + Shift + /`
 
