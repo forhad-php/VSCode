@@ -33,7 +33,7 @@ Ctrl + Shift + F | Search in File
 Ctrl + B | Show/Hide sidebar
 Ctrl + PageUp/PageDown | Go next/previous tab
 Ctrl + Shift + PageUp/PageDown | Move next/previous tab itself
-Ctrl + Alt + D + D | Document This (Only on JS file)
+Ctrl + Alt + D + D | Document This (Only on JS file) (Extension required: Document This)
 
 ## Visual Studio Code EXTENSIONS :
 
