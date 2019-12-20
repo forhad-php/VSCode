@@ -9,5 +9,9 @@
         "key": "ctrl+shift+d",
         "command": "editor.action.addSelectionToNextFindMatch",
         "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+/",
+        "command": "highlight-matching-tag.jumpToMatchingTag"
     }
 ]
