@@ -11,8 +11,11 @@
     - C:\composer> composer require wp-coding-standards/wpcs
 4. Now make sure have installed git
     - C:\composer> vendor>git clone https://github.com/wimg/PHPCompatibility.git
+    ***********************
+    - C:\composer> vendor>git clone https://github.com/PHPCompatibility/PHPCompatibility.git
 5. Link wpcs and PHPCompatibilly Standards with phpcs :
     - phpcs --config-set installed_paths C:/composer/vendor/PHPCompatibility,C:/composer/vendor/wp-coding-standards/wpcs
+    ***********************
     - NOTE : phpcs maybe found in C:\composer\vendor\squizlabs\php_codesniffer
         - Hold the file and release in git bash for geting actual path.
 6. Check installed coding standerd list by the command.
@@ -31,6 +34,7 @@
 8. Now going to add PHP to Windows Path Variable 
     - Search Start menu > "Advanced system settings"
     - Click "Environment Variables…"
+    ***********************
     - User variables > path > Edit..
     - At the end of the path write a semicolon sign ";" and then paste php.exe path
     - Xampp users php path C:\xampp\php\php.exe
