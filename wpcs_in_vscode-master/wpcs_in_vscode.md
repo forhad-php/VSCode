@@ -33,6 +33,7 @@
     - Click "Environment Variables…"
     - System variables > path > Edit > New
     - Xampp users php path C:\xampp\php\php.exe
+    - After adding path a restart maybe required!
 
 ## Automatically formated by PHPCBF
 
