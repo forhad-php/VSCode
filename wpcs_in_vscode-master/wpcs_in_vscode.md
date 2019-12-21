@@ -42,11 +42,12 @@
 - and paste below code
     
     ```
-    "phpcbf.onsave": true,
+    "phpcbf.enable": true,
+    "phpcbf.onsave": false,
     "phpcbf.debug": true,
     "phpcbf.standard": "WordPress",
     "phpcbf.executablePath": "C:\/Users\/Forhad\/AppData\/Roaming\/Composer\/vendor\/bin\/phpcbf.bat",
     ```
-    > Make sure the 'phpcbd.bat' is currect.
+    > Make sure the path 'phpcbd.bat' is currect. To know command `where phpcbf`
     
 Now go to any WordPress file and 'right click' to select Formate Document or press Ctrl+Alt+L
