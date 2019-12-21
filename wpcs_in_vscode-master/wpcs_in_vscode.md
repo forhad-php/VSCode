@@ -6,7 +6,7 @@
     - While intalling composer select 'Develper Mode'
     - Escape proxy setting, click Next.
 2. Write this command in cmd (Recommend 'Git Bash')
-    - C:\composer> composer global require squizlabs/php_codesniffer 3.4.1
+    - C:\composer> composer global require squizlabs/php_codesniffer
     - (go to - packagist.org/explore/ and search by name of package and see version number)
 3. After install codesniffer then write this command in cmd
     - C:\composer> composer require wp-coding-standards/wpcs 2.0.0 (also check the version)
