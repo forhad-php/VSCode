@@ -50,4 +50,4 @@
     ```
     > Make sure the path 'phpcbd.bat' is currect. To know command `where phpcbf`
     
-Now go to any WordPress file and 'right click' to select Formate Document or press Ctrl+Alt+L
+Now go to any WordPress file and 'right click' to select Formate Document or press Ctrl+Alt+F
