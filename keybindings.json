@@ -15,10 +15,6 @@
         "when": "editorFocus"
     },
     {
-        "key": "ctrl+shift+/",
-        "command": "highlight-matching-tag.jumpToMatchingTag"
-    },
-    {
         "key": "ctrl+alt+f",
         "command": "editor.action.formatDocument",
         "when": "editorHasDocumentFormattingProvider && editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
