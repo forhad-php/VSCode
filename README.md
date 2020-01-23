@@ -3,6 +3,7 @@
 Command | For
 --- | ---
 code . | Launching from command line
+code --user-data-dir | Prevent to reopening the old project.
 
 ## VSCode My Favorite Shortcuts :
 
