@@ -1,0 +1,57 @@
+{
+    /**
+    Extension : "Custom CSS and JS Loader" by "be5invis"
+    Tips      : Every time have changed the imports option,
+                'Custom CSS and JS Loader' need to disable and re-enable with F1 menu. */
+    "vscode_custom_css.imports": [
+        "file:///C:/vscss/styles.css"
+    ],
+
+    // Theming
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 0,
+    "editor.fontFamily": "Operator Mono Lig",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 17,
+    "editor.fontWeight": "100",
+    "editor.wordWrap": "on",
+    "editor.cursorWidth": 3,
+    
+    // PHPCS (PHP path from Local Flywheel)
+    "php.validate.executablePath": "C:\\Program Files (x86)\\Local\\resources\\extraResources\\lightning-services\\php-7.4.1+18\\bin\\win64\\php.exe",
+
+    // PHPCBF
+    "phpcbf.enable": true,
+    "phpcbf.onsave": false,
+    "phpcbf.debug": true,
+    "phpcbf.standard": "WordPress",
+    "phpcbf.executablePath": "C:\\Users\\GiantMarketers\\AppData\\Roaming\\Composer\\vendor\\bin\\phpcbf.bat",
+
+    // Others
+    "cSpell.ignoreWords": [
+        "Affiliatable",
+        "Byclass",
+        "Forhad",
+        "Tabbable",
+        "WPINC",
+        "atts",
+        "forhadpro",
+        "frhd",
+        "kses",
+        "metabox",
+        "shortcode",
+        "wpas",
+        "Astra",
+        "Elementor",
+        "Pinterest",
+        "subpackage",
+        "unslash",
+        "wpautop"
+    ],
+    "workbench.colorCustomizations": {
+        "[Material Theme Palenight High Contrast]": {}
+    },
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": "active"
+}
