@@ -28,8 +28,8 @@ File > Preferences > Settings > Extensions > PHP Codesniffer > Standard > Add ph
     - Search Start menu > "Advanced system settings"
     - Click "Environment Variables…"
     - System variables > path > Edit > New
-    - Xampp users php path C:\xampp\php\php.exe
-    - After adding path in system variable, restart the windows will be required!
+    - Using the command `where php` and paste the path
+    - After adding the path in system variable, restarting the windows will be required!
 
 ## Automatically formated by PHPCBF
 
