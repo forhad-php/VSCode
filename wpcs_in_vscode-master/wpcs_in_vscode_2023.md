@@ -2,22 +2,18 @@
 
 > Before you start, can check this out - https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards
 
-1. Install Composer
-    - While intalling composer select 'Develper Mode'
+1. Install Cmder(with Git for Windows)
+2. Install Composer
+    - While installing composer select 'Developer Mode'
     - Escape proxy setting, click Next.
-2. Write this command in cmd (Recommend 'Git')
-    `composer global require squizlabs/php_codesniffer`
-3. After install codesniffer then write this command in cmd
-    - C:\composer> composer require wp-coding-standards/wpcs
-4. Now make sure have installed git
-    - C:\composer> vendor>git clone https://github.com/PHPCompatibility/PHPCompatibility.git
-5. Link wpcs and PHPCompatibilly Standards with phpcs :
-    - phpcs --config-set installed_paths C:/composer/vendor/PHPCompatibility,C:/composer/vendor/wp-coding-standards/wpcs
-6. Check installed coding standerd list by the command.
-    - phpcs -i
-    - Can found 'wordpress' in the list? Maybe not.
-7. Now For “Visual Studio Code” go to
-    - File > Preferences > Settings > Extensions > PHP Codesniffer > Standard > Add php path and standard like below
+3. Write the command in Cmder (Recommend 'Git') = `composer global require squizlabs/php_codesniffer`
+4. After installing Codesniffer write this command in the location = C:\composer> `composer require wp-coding-standards/wpcs`
+5. Cloning a Git repository at the location C:\composer> vendor> `git clone https://github.com/PHPCompatibility/PHPCompatibility.git`
+6. Link up WPCS with PHPCompatibilly Standards with PHPCS :
+`phpcs --config-set installed_paths C:/composer/vendor/PHPCompatibility,C:/composer/vendor/wp-coding-standards/wpcs`
+7. Check if the WordPress in listed by the command `phpcs -i`
+8. Now For “Visual Studio Code” go to
+File > Preferences > Settings > Extensions > PHP Codesniffer > Standard > Add php path and standard like below 👇
     ```
     {
     "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
